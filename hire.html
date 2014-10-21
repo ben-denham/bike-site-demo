@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hire - Ben's Bicycles</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Ben's Bicycles</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hire.html">Hire</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+    <h2>Bicycle Hire Calculator</h2>
+    <form id="hire-form">
+
+      <div class="form-control">
+        <label for="bike">Bike model:</label>
+        <select name="bike" id="bike-input">
+          <option value="50">Dunlop</option>
+          <option value="20">Apollo</option>
+          <option value="20">Radius</option>
+        </select>
+      </div>
+
+      <div class="form-control">
+        <label for="days">Number of days:</label>
+        <input name="days" id="days-input" type="number">
+      </div>
+
+      <div class="form-control">
+        <label for="helmet">Include Helmet?</label>
+        <input name="helmet" id="helmet-input" type="checkbox">
+      </div>
+
+      <button type="submit" name="submit" id="submit-input">Submit</button>
+
+    </form>
+
+    <p id="hire-form-result"></p>
+
+  </main>
+  <footer>
+    <p>Copyright &copy; 2014</p>
+  </footer>
+</body>
+</html>

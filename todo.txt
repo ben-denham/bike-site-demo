@@ -1,0 +1,14 @@
+Note: As you add styles, make .
+
+* Set the default font for the site to 'Arial'.
+* Add background colours to the header and footer.
+* Increase the font size on the introduction paragraph (use em).
+* Make "featured" list items stand out visually.
+* Add 15px margin, a black border, and 10px padding around forms.
+* Add 15px margin around form controls.
+* Display the navigation menu items horizontally.
+* Centre the footer text.
+* Make visited links appear the same as normal links.
+* Make everything inside the body be displayed in the middle 1290px
+  (Hint: use a div, margin: auto, and max-width).
+* Generally make the site look nicer!
