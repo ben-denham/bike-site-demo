@@ -1,4 +1,4 @@
-Note: As you add styles, make .
+Tasks:
 
 * Set the default font for the site to 'Arial'.
 * Add background colours to the header and footer.
